@@ -55,6 +55,7 @@ static void *ntuple_addr(const struct spira_ntuple *n);
 #define PVR_TYPE_P7P	0x004a
 #define PVR_TYPE_P8E	0x004b
 #define PVR_TYPE_P8	0x004d
+#define PVR_TYPE_RADIX	0x004e /* hack */
 #define PVR_TYPE_P8NVL	0x004c
 
 #define SPR_PVR		0x11f	/* RO: Processor version register */

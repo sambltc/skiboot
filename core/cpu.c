@@ -413,6 +413,10 @@ void init_boot_cpu(void)
 		proc_gen = proc_gen_p8;
 		hile_supported = PVR_VERS_MAJ(mfspr(SPR_PVR)) >= 2;
 		break;
+	case PVR_TYPE_RADIX:
+		proc_gen = proc_gen_p8;
+		hile_supported = true;
+		break;
 	case PVR_TYPE_P8NVL:
 		proc_gen = proc_gen_p8;
 		hile_supported = true;

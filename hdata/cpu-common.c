@@ -56,6 +56,9 @@ struct dt_node * add_core_common(struct dt_node *cpus,
 	case PVR_TYPE_P8NVL:
 		name = "PowerPC,POWER8";
 		break;
+	case PVR_TYPE_RADIX:
+		name = "PowerPC,POWER_RADIX";
+		break;
 	default:
 		name = "PowerPC,Unknown";
 	}

@@ -181,6 +181,7 @@
 #define PVR_TYPE_P8E	0x004b /* Murano */
 #define PVR_TYPE_P8	0x004d /* Venice */
 #define PVR_TYPE_P8NVL	0x004c /* Naples */
+#define PVR_TYPE_RADIX	0x004e /* Radix, hack */
 
 #ifdef __ASSEMBLY__
 
